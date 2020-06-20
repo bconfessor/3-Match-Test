@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &88623250676480190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5213886268117276369}
+  - component: {fileID: 7625986867536382890}
+  m_Layer: 0
+  m_Name: Gem Matrix Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5213886268117276369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88623250676480190}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7625986867536382890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88623250676480190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f37cea02abc31d42b23576951db66be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  appleGemPrefab: {fileID: 243143385007617271, guid: 14b38c2e30a9b7a459f2f42d8a9792e8,
+    type: 3}
+  breadGemPrefab: {fileID: 2777331902475613509, guid: ba629dfdbe1992a42b3612578ee5b904,
+    type: 3}
+  coconutGemPrefab: {fileID: 7714139931154756187, guid: c20ba02bcc666e3458409db7f5648260,
+    type: 3}
+  flowerGemPrefab: {fileID: 4838778447599355784, guid: 46c8c975a77085742b784a31bb878beb,
+    type: 3}
+  milkGemPrefab: {fileID: 3415659548696352569, guid: 3f0c3ca6f89f37b41824a71096611366,
+    type: 3}
+  orangeGemPrefab: {fileID: 7390318625037340911, guid: 13f54734fc8d4e5449d51fb29a6c66ee,
+    type: 3}
+  vegetableGemPrefab: {fileID: 4143750603539524633, guid: 9b9d5cc2fe3a8d14aae2ad2269abc0a2,
+    type: 3}
+  gemMatrixRowSize: 6
+  gemMatrixColumnSize: 6
