@@ -29,6 +29,8 @@ public class RoundsManager : MonoBehaviour
     //inevitably turns true and allows player to start over
     public bool playerLost = false;
 
+    public GameObject GemMatrixGO;
+
     public GameObject GameOverPanelGO;
     public GameObject GameOverFinalScoreTextGO;
     
@@ -75,6 +77,9 @@ public class RoundsManager : MonoBehaviour
         GameOverFinalScoreTextGO.GetComponent<TextMeshProUGUI>().text = ScoreManager.instance.scoreCounterGO.GetComponent<TextMeshProUGUI>().text;
 
         Debug.Log("Time's up! Player lost!");
+
+        //Turn off GemMatrix GO so it doesn't fill the view too much
+        GemMatrixGO.SetActive(false);
     }
 
 
