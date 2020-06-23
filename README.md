@@ -6,7 +6,7 @@
 ## Limitações e escolhas de design
 - Devido a incapacidade do componente TextMeshPRO de trabalhar homogeneamente com a fonte fornecida (caracteres especiais como 'ç' e 'ã' ficavam com aparência destoante dos demais caracteres), foi decidido redigir a UI em inglês.
 
-
+___
 
 ### Descrição 
 Um demo de um jogo de Match-3, onde o jogador deve conectar 3 ou mais sequências de peças em uma mesma linha ou coluna em um tempo limitado!
