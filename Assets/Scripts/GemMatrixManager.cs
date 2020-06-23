@@ -44,19 +44,7 @@ public class GemMatrixManager : MonoBehaviour
     public int i_indexHighlightedGem =-1;
     public int j_indexHighlightedGem =-1;
 
-
-
-
-    public void Debug_ShowGemMatrix()
-    {
-        for(int i = 0;i<gemMatrix.Count;i++)
-        {
-            for(int j = 0;j<gemMatrix[i].Count;j++)
-            {                
-                Debug.Log("Position [" + i + ", " + j + "]: " + gemMatrix[i][j].GetComponent<Gem>().gemName);
-            }
-        }
-    }
+    
 
     /// <summary>
     /// Based on the Background GO's width and height, generate each gem's positions on-screen
@@ -336,7 +324,6 @@ public class GemMatrixManager : MonoBehaviour
         List<List<Vector2>> completedChains = GetAllCompletedChains();
         if(completedChains.Count>0)
         {
-            Debug.Log("Made some chains!");
             //play clear sound and add possible score only if it's not the first run
             if (!firstRun)
             {
@@ -720,7 +707,6 @@ public class GemMatrixManager : MonoBehaviour
     {
        
         //For now, just create them in the empty spaces
-        //TODO: Make "falling animation"?
         for (int i = 0; i < gemMatrix.Count; i++)
         {
             for (int j = 0; j < gemMatrix[i].Count; j++)

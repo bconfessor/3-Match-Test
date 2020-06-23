@@ -9,8 +9,6 @@ public class RoundsManager : MonoBehaviour
 {
     public static RoundsManager instance;
 
-    //TODO: Fix countdown GO, it's not stopping and restarting after every new round
-
     
     public int currentRound = 1;
 
@@ -18,7 +16,7 @@ public class RoundsManager : MonoBehaviour
     public int roundTimeLimit = 120;
     public int roundCurrentTimeLeft;
 
-    //starts at 1000, doubles + adds 500 every round (?)
+    //starts at 1000, doubles + adds 500 every round 
     public int roundTargetBaseScore = 1000;
     public int roundTargetScore;
     public int targetScoreIncrement = 500;
@@ -76,7 +74,7 @@ public class RoundsManager : MonoBehaviour
 
         GameOverFinalScoreTextGO.GetComponent<TextMeshProUGUI>().text = ScoreManager.instance.scoreCounterGO.GetComponent<TextMeshProUGUI>().text;
 
-        Debug.Log("Time's up! Player lost!");
+        //Debug.Log("Time's up! Player lost!");
 
         //Turn off GemMatrix GO so it doesn't fill the view too much
         GemMatrixGO.SetActive(false);
