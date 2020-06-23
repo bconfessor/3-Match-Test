@@ -1,6 +1,6 @@
 # 3-Match-Test
 
-![Demo Screenshot](https://github.com/bconfessor/3-Match-Test/blob/master/Match-3%20Screenshot.jpeg)
+<img src="https://github.com/bconfessor/3-Match-Test/blob/master/Match-3%20Screenshot.jpeg" alt="Demo Screenshot" width="400"/>
 
 
 ## Limitações e escolhas de design
